@@ -56,9 +56,9 @@ def calculate_money(coffee_type, quarter_count, dimes_count, nickel_count, penni
     elif money > money_required:
         change = money - money_required
         print(f"Here is {round(change, 2)} dollars in change")
-        print(f"Here is your {coffee_type}. Enjoy!”")
+        print(f"Here is your {coffee_type}. Enjoy!")
     else:
-        print(f"Here is your {coffee_type}. Enjoy!”")
+        print(f"Here is your {coffee_type}. Enjoy!")
 
 
 def make_coffee(coffee_type):
